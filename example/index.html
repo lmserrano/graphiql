@@ -109,8 +109,9 @@
       function graphQLFetcher(graphQLParams) {
         // This example expects a GraphQL server at the path /graphql.
         // Change this to point wherever you host your GraphQL server.
-        return fetch('/graphql', {
+        return fetch('http://dev.puregroupapi.com/v2/graphql?apiKey=b2c1483c-a420-4a21-aa5f-0e189fe325ea', {
           method: 'post',
+          mode: 'no-cors',
           headers: {
             'Accept': 'application/json',
             'Content-Type': 'application/json',
