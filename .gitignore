@@ -10,3 +10,10 @@ dist/
 /graphiql.js
 /graphiql.min.js
 /graphiql.css
+
+
+## Additional .gitignore entries
+
+.idea
+package-lock.json
+
